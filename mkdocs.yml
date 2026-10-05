@@ -1,0 +1,53 @@
+site_name: Formations BU
+site_description: Supports de formation documentaire et outils IA
+copyright: © BU de Béthune · Formation
+use_directory_urls: false
+theme:
+  name: material
+  custom_dir: overrides
+  language: fr
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle: { icon: material/weather-night, name: Mode sombre }
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle: { icon: material/weather-sunny, name: Mode clair }
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+plugins:
+  - search:
+      lang: fr
+  - offline
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+extra_css:
+  - assets/extra.css
+nav:
+  - Accueil: index.md
+  - Formations doc:
+      - Le portail documentaire: doc/portail.md
+      - Vérifier ses sources: doc/verifier-sources.md
+      - Le plagiat: doc/plagiat.md
+      - Zotero: doc/zotero.md
+  - Outils IA:
+      - Les IAG: ia/iag.md
+      - Les LLM: ia/llm.md
+      - Prompt engineering: ia/prompt.md
+      - NotebookLM: ia/notebooklm.md
+      - Perplexity: ia/perplexity.md
+      - Gamma: ia/gamma.md
+  - À venir: autres/a-venir.md
