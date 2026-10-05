@@ -15,7 +15,8 @@
 .md-typeset h1 { font-weight: 700; color: var(--md-default-fg-color); }
 
 /* Accueil */
-.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; }
+.cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; align-items: start; }
+@media (max-width: 900px) { .cards { grid-template-columns: 1fr; } }
 .cards > div { border: 1px solid var(--md-default-fg-color--lightest); border-radius: 14px;
   padding: .25rem 1rem 1rem; background: var(--md-code-bg-color); box-shadow: 0 3px 8px rgba(0,0,0,.06); }
 .cards ul { list-style: none; margin-left: 0 !important; padding: 0; }

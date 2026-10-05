@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 ![Formation BU Béthune](assets/img/banniere-accueil.webp){ .banner }
 
 # Bienvenue !
