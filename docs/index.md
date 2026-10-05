@@ -8,8 +8,6 @@ hide:
 
 # Bienvenue !
 
-Tous les supports au même endroit, en ligne ou depuis la clé USB.
-
 <div class="cards" markdown>
 <div markdown>
 [![Formations documentaires](assets/img/carte-formations-doc.webp)](doc/portail.md)
