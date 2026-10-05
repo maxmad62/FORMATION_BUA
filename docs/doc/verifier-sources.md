@@ -1,5 +1,7 @@
 # Vérifier ses sources
 
+![Vérifier ses sources](../assets/img/verifier-sources.webp){ .banner }
+
 ## Objectifs
 
 - Connaître les types de documents et leur fiabilité

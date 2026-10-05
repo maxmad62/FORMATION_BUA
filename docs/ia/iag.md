@@ -1,5 +1,7 @@
 # Les IAG
 
+![Les IAG](../assets/img/llm.webp){ .banner }
+
 ## Objectifs
 
 - Comprendre comment fonctionne une IA générative

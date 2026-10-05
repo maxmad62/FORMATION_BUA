@@ -1,5 +1,7 @@
 # Le portail documentaire
 
+![Le portail documentaire](../assets/img/portail.webp){ .banner }
+
 ## Objectifs
 
 - Connaître les outils de la recherche : la bibliothèque et le portail documentaire

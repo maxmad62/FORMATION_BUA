@@ -1,11 +1,13 @@
-<div class="hero" markdown>
+![Formation BU Béthune](assets/img/banniere-accueil.webp){ .banner }
+
 # Bienvenue !
 
-Formations de la BU de Béthune. Tous les supports au même endroit, en ligne ou depuis la clé USB.
-</div>
+Tous les supports au même endroit, en ligne ou depuis la clé USB.
 
 <div class="cards" markdown>
 <div markdown>
+[![Formations documentaires](assets/img/carte-formations-doc.webp)](doc/portail.md)
+
 ### 📚 Formations doc
 - [Le portail documentaire](doc/portail.md)
 - [Vérifier ses sources](doc/verifier-sources.md)
@@ -13,6 +15,8 @@ Formations de la BU de Béthune. Tous les supports au même endroit, en ligne ou
 - [Zotero](doc/zotero.md)
 </div>
 <div markdown>
+[![Les outils IA](assets/img/carte-outils-ia.webp)](ia/iag.md)
+
 ### 🧠 Outils IA
 - [Les IAG](ia/iag.md)
 - [Les LLM](ia/llm.md)
@@ -22,6 +26,8 @@ Formations de la BU de Béthune. Tous les supports au même endroit, en ligne ou
 - [Gamma](ia/gamma.md)
 </div>
 <div markdown>
+[![Autres](assets/img/carte-autres.webp)](autres/a-venir.md)
+
 ### 🌱 À venir
 - [Prochaines formations](autres/a-venir.md)
 </div>

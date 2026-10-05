@@ -1,5 +1,7 @@
 # NotebookLM
 
+![NotebookLM](../assets/img/notebooklm.webp){ .banner }
+
 ## Objectifs
 
 - Comprendre ce qui distingue NotebookLM d'une IA classique

@@ -1,5 +1,7 @@
 # Perplexity
 
+![Perplexity](../assets/img/perplexity.webp){ .banner }
+
 ## Objectifs
 
 - Comprendre ce qu'est un « moteur de réponses »

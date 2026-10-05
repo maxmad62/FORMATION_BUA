@@ -1,5 +1,7 @@
 # Le plagiat
 
+![Le plagiat](../assets/img/plagiat.webp){ .banner }
+
 ## Objectifs
 
 - Savoir ce qu'est le plagiat

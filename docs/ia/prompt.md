@@ -1,5 +1,7 @@
 # Prompt engineering
 
+![Prompt engineering](../assets/img/prompt.webp){ .banner }
+
 ## Objectifs
 
 - Savoir ce qu'est un prompt

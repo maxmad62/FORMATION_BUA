@@ -1,5 +1,7 @@
 # Les LLM
 
+![Les LLM](../assets/img/llm.webp){ .banner }
+
 ## Objectifs
 
 - Comprendre comment fonctionne un LLM
