@@ -1,17 +1,19 @@
-# Formations BU
+<div class="hero" markdown>
+# Bienvenue !
 
-Tous les supports au même endroit. En ligne ou depuis la clé USB.
+Formations de la BU de Béthune. Tous les supports au même endroit, en ligne ou depuis la clé USB.
+</div>
 
 <div class="cards" markdown>
 <div markdown>
-### :material-book-open-variant: Formations doc
+### 📚 Formations doc
 - [Le portail documentaire](doc/portail.md)
 - [Vérifier ses sources](doc/verifier-sources.md)
 - [Le plagiat](doc/plagiat.md)
 - [Zotero](doc/zotero.md)
 </div>
 <div markdown>
-### :material-robot-outline: Outils IA
+### 🧠 Outils IA
 - [Les IAG](ia/iag.md)
 - [Les LLM](ia/llm.md)
 - [Prompt engineering](ia/prompt.md)
@@ -20,7 +22,7 @@ Tous les supports au même endroit. En ligne ou depuis la clé USB.
 - [Gamma](ia/gamma.md)
 </div>
 <div markdown>
-### :material-sprout: À venir
+### 🌱 À venir
 - [Prochaines formations](autres/a-venir.md)
 </div>
 </div>

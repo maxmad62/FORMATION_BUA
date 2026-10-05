@@ -9,11 +9,11 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
+      primary: custom
       toggle: { icon: material/weather-night, name: Mode sombre }
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
+      primary: custom
       toggle: { icon: material/weather-sunny, name: Mode clair }
   features:
     - navigation.tabs

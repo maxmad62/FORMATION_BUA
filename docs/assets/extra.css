@@ -1,5 +1,34 @@
-.embed{position:relative;padding-top:56.25%;border-radius:10px;overflow:hidden;background:var(--md-code-bg-color)}
-.embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.embed .fallback{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;padding:1rem}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
-.cards > div{border:1px solid var(--md-default-fg-color--lightest);border-radius:12px;padding:1rem}
+/* Couleurs de l'ancien site */
+:root, [data-md-color-scheme="default"] {
+  --md-primary-fg-color: #0073e6;
+  --md-primary-fg-color--light: #3390eb;
+  --md-primary-fg-color--dark: #005bb5;
+  --md-accent-fg-color: #005bb5;
+  --md-typeset-a-color: #0073e6;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #1a5fa8;
+  --md-primary-fg-color--dark: #134a85;
+  --md-typeset-a-color: #6cb2ff;
+  --md-accent-fg-color: #8cc4ff;
+}
+.md-typeset h1 { font-weight: 700; color: var(--md-default-fg-color); }
+
+/* Accueil */
+.hero { border-radius: 16px; padding: 2rem 1.5rem; margin-bottom: 1.5rem;
+  background: linear-gradient(135deg, #0073e6, #005bb5); color: #fff; }
+.hero h1 { color: #fff !important; margin: 0 0 .4rem; }
+.hero p { margin: 0; opacity: .92; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; }
+.cards > div { border: 1px solid var(--md-default-fg-color--lightest); border-radius: 14px;
+  padding: .25rem 1rem 1rem; background: var(--md-code-bg-color); box-shadow: 0 3px 8px rgba(0,0,0,.06); }
+.cards ul { list-style: none; margin-left: 0 !important; padding: 0; }
+.cards li { margin: .3rem 0 !important; }
+.cards li a { display: block; padding: .45rem .6rem; border-radius: 10px; background: rgba(0,0,0,.04); }
+[data-md-color-scheme="slate"] .cards li a { background: rgba(255,255,255,.05); }
+.cards li a:hover { background: rgba(0,115,230,.12); }
+
+/* Diaporamas intégrés */
+.embed { position: relative; padding-top: 56.25%; border-radius: 10px; overflow: hidden; background: var(--md-code-bg-color); }
+.embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.embed .fallback { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; text-align: center; padding: 1rem; }
