@@ -37,7 +37,7 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_css:
-  - assets/extra.css
+  - assets/extra.css?v=20261007
 nav:
   - Accueil: index.md
   - Formations doc:
