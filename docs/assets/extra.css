@@ -36,3 +36,10 @@
 
 /* Avatar dans la barre du haut */
 .md-header__button.md-logo img { height: 1.6rem; width: 1.6rem; border-radius: 50%; object-fit: cover; }
+
+/* Accueil compact : bannière collée sous le header, cartes juste dessous */
+.sr-only { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.md-main__inner:has(.banner-home) { margin-top: .6rem; }
+.md-content__inner:has(.banner-home) { padding-top: 0; margin-top: 0; }
+.md-content__inner:has(.banner-home)::before { display: none; }
+.md-typeset p:has(> img.banner-home) { margin: 0 0 1rem; }

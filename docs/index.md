@@ -4,9 +4,9 @@ hide:
   - toc
 ---
 
-![Formation BU Béthune](assets/img/banniere-accueil.webp){ .banner }
+# Accueil { .sr-only }
 
-# Bienvenue !
+![Formation BU Béthune](assets/img/banniere-accueil.webp){ .banner .banner-home }
 
 <div class="cards" markdown>
 <div markdown>
